@@ -30,7 +30,7 @@ import Foo from 'your-library/Foo.svelte';
 To publish the generated package:
 
 ```
-npm publish package
+npm publish ./package --access public
 ```
 
 If you configure a custom [`package.dir`](#configuration-package), change `package` accordingly.
